@@ -1,0 +1,17 @@
+    .contenidor {
+      max-width: 1100px;     
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    .explica {
+      color: red;
+    }
