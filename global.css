@@ -79,3 +79,11 @@ a{
     padding: 10px;
     border-radius: 5px; 
 }
+
+.filtro{
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
