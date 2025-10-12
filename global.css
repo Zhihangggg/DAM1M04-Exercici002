@@ -99,3 +99,15 @@ a{
 img {
     height: 300px;
 }
+.map-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: black; /* Caja gris como mapa ficticio */
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+    color: #fff;
+}
