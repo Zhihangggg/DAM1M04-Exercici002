@@ -87,3 +87,16 @@ a{
     justify-content: center;
     color: white;
 }
+
+.productoscard{
+    flex:260px; /* Ancho flexible con mínimo de 260px */
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+img {
+    height: 400px;
+}
