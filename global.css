@@ -45,7 +45,7 @@ body {
       width: 100%;
       padding: 15px;
       background-color: black;
-      text-align: right;
+      text-align: left;
 }
 #pie{
     text-align: center;
@@ -71,7 +71,6 @@ a{
     padding: 20px;
     width: 30%; 
     border-radius: 8px; 
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 .etiqueta{
     background-color: white;
@@ -84,19 +83,19 @@ a{
     background-color: black;
     padding: 10px 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: white;
+    margin-bottom: 40px;
 }
 
 .productoscard{
-    flex:260px; /* Ancho flexible con mínimo de 260px */
     background-color: black;
     color: white;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    
+    margin-bottom: 40px;
 }
 img {
-    height: 400px;
+    height: 300px;
 }
