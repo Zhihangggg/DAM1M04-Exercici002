@@ -1,24 +1,8 @@
-body { 
-    font-family: "Open Sans";
-    margin: 0;
-    padding: 0;
+.cabecera{
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      padding: 15px;
+      background-color: black;
+      text-align: right;
 }
-.autocenterContainer {
-    max-width: 800px;     /* amplada màxima */
-    margin: auto;         /* centra horitzontalment */
-    background: red;
-    padding: 20px;
-}
-.titleContainer { 
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-.titleContainer > h1 { 
-    box-sizing: border-box;
-    margin: 0;
-}
-    
-    
