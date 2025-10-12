@@ -1,4 +1,33 @@
-.cabecera{
+body { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+.autocenterContainer {
+    max-width: 1100px;     /* amplada màxima */
+    margin: auto;         /* centra horitzontalment */
+    background: black;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 5px; 
+}
+.hero { 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 5px; 
+}
+.boton{
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: white; 
+    color: black; 
+    border-radius: 5px; 
+}
+
+#cabecera{
       position: fixed;
       top: 0; left: 0;
       width: 100%;
@@ -6,3 +35,17 @@
       background-color: black;
       text-align: right;
 }
+#pie{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+
+
+}
+a{
+        color: #ffffff;
+}
+
