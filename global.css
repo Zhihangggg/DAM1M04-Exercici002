@@ -88,6 +88,13 @@ a{
     margin-bottom: 40px;
 }
 
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
 .productoscard{
     background-color: black;
     color: white;
